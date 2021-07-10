@@ -18,8 +18,9 @@ extra-source-files:  CHANGELOG.md
 
 executable anybolt
   main-is:             Main.hs
+  hs-source-dirs:      src
   -- other-modules:
   -- other-extensions:
-  build-depends:       base >=4.14 && <4.15
+  build-depends:       base >=4.14 && <4.15, Cabal
   -- hs-source-dirs:
   default-language:    Haskell2010
