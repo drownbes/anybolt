@@ -18,6 +18,7 @@ in
       buildInputs = [
         pkgs.nix-prefetch-git
         pkgs.haskellPackages.hie-bios
+        pkgs.clightning
       ];
     };
   }

@@ -21,6 +21,14 @@ executable anybolt
   hs-source-dirs:      src
   -- other-modules:
   -- other-extensions:
-  build-depends:       base >=4.14 && <4.15, Cabal
+  build-depends:       base >=4.14 && <4.15,
+                       Cabal,
+                       network == 3.1.2.2,
+                       req == 3.9.1,
+                       HTTP == 4000.3.16,
+                       network-uri == 2.6.4.1,
+                       bytestring,
+                       utf8-string,
+                       aeson
   -- hs-source-dirs:
   default-language:    Haskell2010
